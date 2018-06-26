@@ -1,0 +1,1 @@
+﻿INSERT INTO Keyword (word, response) VALUE ('lolithia','Seek not Lolithia...\nShe sleeps in her tomb.\nLolithia\'s icy breath can only destroy...\nSeek not Lolithia in her tomb.\nThe Elw have departed\nSeek not Lolithia, for she is bound in the Land of Light...\nShe is the Death Wind.\nThe heartbeat of annihilation, an absolute destructive power...');

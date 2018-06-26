@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Riritia.Core\Riritia.Core.csproj" />
+    <ProjectReference Include="..\Riritia.HumanInterface\Riritia.HumanInterface.csproj" />
+    <ProjectReference Include="..\Riritia.IdseConnection\Riritia.IdseConnection.csproj" />
+    <ProjectReference Include="..\Riritia.Interfaces\Riritia.Interfaces.csproj" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy &quot;$(TargetPath)&quot; &quot;C:\Riritia\Plugins&quot; /E /Y /C" />
+  </Target>
+
+</Project>
