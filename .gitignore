@@ -26,3 +26,14 @@
 /Riritia.Purposes.Keyword/obj
 /Riritia.Purposes.WhatIs/bin/Debug/netstandard2.0
 /Riritia.Purposes.WhatIs/obj
+/.vs/Riritia/DesignTimeBuild
+/.vs/Riritia/v15/.suo
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/Riritia.Communicators.GameTranslator/obj
+/Riritia.Communicators.MqttClient/bin/Debug/netstandard2.0
+/Riritia.Communicators.MqttClient/obj
+/Riritia.Mqtt.Server/bin/Debug/netcoreapp2.1
+/Riritia.Mqtt.Server/obj
+/Riritia.Purposes.GoogleTranslator/obj
+/Riritia.Purposes.OpticalCharacterRecognition/obj
